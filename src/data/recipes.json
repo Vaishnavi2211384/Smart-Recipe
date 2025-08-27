@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Paneer Butter Masala",
+    "ingredients": ["paneer", "cheese", "butter", "tomato", "onion", "cream", "spices"]
+  },
+  {
+    "id": 2,
+    "title": "Banana Smoothie",
+    "ingredients": ["banana", "plantain", "milk", "yogurt", "honey"]
+  },
+  {
+    "id": 3,
+    "title": "Tomato Soup",
+    "ingredients": ["tomato", "soup", "onion", "garlic", "carrot", "spices"]
+  },
+  {
+    "id": 4,
+    "title": "Masala Dosa",
+    "ingredients": ["rice", "lentil", "potato", "onion", "curry leaves"]
+  },
+  {
+    "id": 5,
+    "title": "Poha",
+    "ingredients": ["rice flakes", "poha", "onion", "potato", "green chili", "curry leaves"]
+  },
+  {
+    "id": 6,
+    "title": "Chicken Curry",
+    "ingredients": ["chicken", "meat", "onion", "tomato", "ginger", "garlic", "spices"]
+  },
+  {
+    "id": 7,
+    "title": "Aloo Paratha",
+    "ingredients": ["potato", "aloo", "flour", "onion", "butter"]
+  },
+  {
+    "id": 8,
+    "title": "Pasta Alfredo",
+    "ingredients": ["pasta", "noodles", "cheese", "milk", "cream", "butter"]
+  },
+  {
+    "id": 9,
+    "title": "Fruit Salad",
+    "ingredients": ["banana", "apple", "mango", "grapes", "orange", "fruit"]
+  },
+  {
+    "id": 10,
+    "title": "Green Salad",
+    "ingredients": ["cucumber", "cuke", "tomato", "lettuce", "onion", "carrot"]
+  }
+]
