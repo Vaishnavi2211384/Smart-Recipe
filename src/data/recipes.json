@@ -1,52 +1,298 @@
 [
   {
-    "id": 1,
-    "title": "Paneer Butter Masala",
-    "ingredients": ["paneer", "cheese", "butter", "tomato", "onion", "cream", "spices"]
+    "name": "Dal Tadka",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "easy",
+    "time": 30,
+    "ingredients": ["toor dal", "onion", "tomato", "green chili", "garlic", "ginger", "cumin", "turmeric", "oil", "salt"],
+    "steps": [
+      "Cook dal with turmeric until soft",
+      "Prepare tadka with onion, garlic, ginger, cumin",
+      "Mix tadka with dal and simmer",
+      "Serve hot with rice or roti"
+    ],
+    "nutrition": { "calories": 180, "protein": 9 }
   },
   {
-    "id": 2,
-    "title": "Banana Smoothie",
-    "ingredients": ["banana", "plantain", "milk", "yogurt", "honey"]
+    "name": "Paneer Butter Masala",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 40,
+    "ingredients": ["paneer", "butter", "onion", "tomato", "cashew", "cream", "ginger", "garlic", "garam masala", "salt"],
+    "steps": [
+      "Make onion-tomato-cashew paste",
+      "Cook paste with spices and butter",
+      "Add paneer cubes and cream",
+      "Simmer and serve with naan"
+    ],
+    "nutrition": { "calories": 320, "protein": 12 }
   },
   {
-    "id": 3,
-    "title": "Tomato Soup",
-    "ingredients": ["tomato", "soup", "onion", "garlic", "carrot", "spices"]
+    "name": "Vegetable Pulao",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "easy",
+    "time": 35,
+    "ingredients": ["rice", "carrot", "peas", "beans", "onion", "tomato", "ginger", "garlic", "whole spices", "oil", "salt"],
+    "steps": [
+      "Fry onion, ginger, garlic with spices",
+      "Add vegetables and sauté",
+      "Add rice and water, cook till fluffy",
+      "Serve hot with raita"
+    ],
+    "nutrition": { "calories": 250, "protein": 6 }
   },
   {
-    "id": 4,
-    "title": "Masala Dosa",
-    "ingredients": ["rice", "lentil", "potato", "onion", "curry leaves"]
+    "name": "Masala Dosa",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 50,
+    "ingredients": ["dosa batter", "potato", "onion", "green chili", "ginger", "mustard seeds", "curry leaves", "turmeric", "oil", "salt"],
+    "steps": [
+      "Prepare potato filling with onion, chili, turmeric",
+      "Spread dosa batter on pan",
+      "Add filling and fold dosa",
+      "Serve with chutney and sambar"
+    ],
+    "nutrition": { "calories": 220, "protein": 5 }
   },
   {
-    "id": 5,
-    "title": "Poha",
-    "ingredients": ["rice flakes", "poha", "onion", "potato", "green chili", "curry leaves"]
+    "name": "Rajma Chawal",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 50,
+    "ingredients": ["rajma", "onion", "tomato", "ginger", "garlic", "green chili", "garam masala", "oil", "salt", "rice"],
+    "steps": [
+      "Soak and cook rajma until soft",
+      "Prepare gravy with onion, tomato, spices",
+      "Add rajma and simmer",
+      "Serve with steamed rice"
+    ],
+    "nutrition": { "calories": 300, "protein": 11 }
   },
   {
-    "id": 6,
-    "title": "Chicken Curry",
-    "ingredients": ["chicken", "meat", "onion", "tomato", "ginger", "garlic", "spices"]
+    "name": "Aloo Paratha",
+    "cuisine": "Indian",
+    "diet": ["vegetarian"],
+    "difficulty": "medium",
+    "time": 40,
+    "ingredients": ["wheat flour", "potato", "onion", "green chili", "coriander", "ghee", "salt"],
+    "steps": [
+      "Prepare potato stuffing",
+      "Roll out dough and fill stuffing",
+      "Cook paratha on tawa with ghee",
+      "Serve with curd and pickle"
+    ],
+    "nutrition": { "calories": 280, "protein": 7 }
   },
   {
-    "id": 7,
-    "title": "Aloo Paratha",
-    "ingredients": ["potato", "aloo", "flour", "onion", "butter"]
+    "name": "Chole Bhature",
+    "cuisine": "Indian",
+    "diet": ["vegetarian"],
+    "difficulty": "hard",
+    "time": 60,
+    "ingredients": ["chickpeas", "onion", "tomato", "ginger", "garlic", "spices", "flour", "yogurt", "oil"],
+    "steps": [
+      "Cook chickpeas with gravy",
+      "Prepare dough with flour and yogurt",
+      "Roll and deep fry bhature",
+      "Serve hot with chole"
+    ],
+    "nutrition": { "calories": 450, "protein": 14 }
   },
   {
-    "id": 8,
-    "title": "Pasta Alfredo",
-    "ingredients": ["pasta", "noodles", "cheese", "milk", "cream", "butter"]
+    "name": "Chicken Curry",
+    "cuisine": "Indian",
+    "diet": ["non-vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 45,
+    "ingredients": ["chicken", "onion", "tomato", "ginger", "garlic", "spices", "oil", "salt"],
+    "steps": [
+      "Marinate chicken with spices",
+      "Cook onion-tomato gravy",
+      "Add chicken and simmer until cooked",
+      "Serve with rice or roti"
+    ],
+    "nutrition": { "calories": 350, "protein": 25 }
   },
   {
-    "id": 9,
-    "title": "Fruit Salad",
-    "ingredients": ["banana", "apple", "mango", "grapes", "orange", "fruit"]
+    "name": "Fish Fry",
+    "cuisine": "Indian",
+    "diet": ["non-vegetarian", "gluten-free"],
+    "difficulty": "easy",
+    "time": 30,
+    "ingredients": ["fish", "turmeric", "chili powder", "lemon", "oil", "salt"],
+    "steps": [
+      "Marinate fish with spices",
+      "Shallow fry until golden",
+      "Serve with onion salad"
+    ],
+    "nutrition": { "calories": 270, "protein": 22 }
   },
   {
-    "id": 10,
-    "title": "Green Salad",
-    "ingredients": ["cucumber", "cuke", "tomato", "lettuce", "onion", "carrot"]
+    "name": "Mutton Biryani",
+    "cuisine": "Indian",
+    "diet": ["non-vegetarian", "gluten-free"],
+    "difficulty": "hard",
+    "time": 90,
+    "ingredients": ["mutton", "rice", "onion", "tomato", "ginger", "garlic", "curd", "whole spices", "oil"],
+    "steps": [
+      "Cook mutton with spices and curd",
+      "Layer rice and mutton with fried onions",
+      "Dum cook until flavors infuse",
+      "Serve with raita"
+    ],
+    "nutrition": { "calories": 500, "protein": 28 }
+  },
+  {
+    "name": "Idli Sambar",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "easy",
+    "time": 40,
+    "ingredients": ["idli batter", "toor dal", "tamarind", "sambar powder", "vegetables", "curry leaves", "oil", "salt"],
+    "steps": [
+      "Steam idlis",
+      "Prepare sambar with dal, tamarind, spices, vegetables",
+      "Serve hot with idli"
+    ],
+    "nutrition": { "calories": 210, "protein": 7 }
+  },
+  {
+    "name": "Poha",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "easy",
+    "time": 20,
+    "ingredients": ["poha", "onion", "green chili", "curry leaves", "turmeric", "peanuts", "lemon", "oil", "salt"],
+    "steps": [
+      "Soak poha lightly",
+      "Fry onion, chili, curry leaves, peanuts",
+      "Mix in poha and turmeric",
+      "Serve with lemon"
+    ],
+    "nutrition": { "calories": 180, "protein": 4 }
+  },
+  {
+    "name": "Upma",
+    "cuisine": "Indian",
+    "diet": ["vegetarian"],
+    "difficulty": "easy",
+    "time": 25,
+    "ingredients": ["rava", "onion", "green chili", "ginger", "curry leaves", "mustard seeds", "oil", "salt"],
+    "steps": [
+      "Roast rava",
+      "Cook onion, chili, curry leaves",
+      "Add water and rava, stir continuously",
+      "Serve hot"
+    ],
+    "nutrition": { "calories": 200, "protein": 5 }
+  },
+  {
+    "name": "Baingan Bharta",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 40,
+    "ingredients": ["baingan", "onion", "tomato", "ginger", "garlic", "green chili", "oil", "salt"],
+    "steps": [
+      "Roast baingan until soft",
+      "Mash and cook with onion, tomato, spices",
+      "Serve with roti"
+    ],
+    "nutrition": { "calories": 150, "protein": 3 }
+  },
+  {
+    "name": "Palak Paneer",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 35,
+    "ingredients": ["paneer", "palak", "onion", "tomato", "ginger", "garlic", "cream", "spices", "salt"],
+    "steps": [
+      "Blanch and puree palak",
+      "Cook onion, tomato, spices",
+      "Add palak puree and paneer",
+      "Simmer and serve"
+    ],
+    "nutrition": { "calories": 280, "protein": 14 }
+  },
+  {
+    "name": "Butter Chicken",
+    "cuisine": "Indian",
+    "diet": ["non-vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 50,
+    "ingredients": ["chicken", "butter", "tomato", "cream", "ginger", "garlic", "garam masala", "oil", "salt"],
+    "steps": [
+      "Cook tomato-cream gravy",
+      "Grill chicken pieces",
+      "Mix chicken in gravy with butter",
+      "Serve with naan"
+    ],
+    "nutrition": { "calories": 400, "protein": 26 }
+  },
+  {
+    "name": "Pav Bhaji",
+    "cuisine": "Indian",
+    "diet": ["vegetarian"],
+    "difficulty": "medium",
+    "time": 40,
+    "ingredients": ["potato", "tomato", "capsicum", "peas", "onion", "ginger", "garlic", "pav bhaji masala", "butter", "pav"],
+    "steps": [
+      "Mash and cook vegetables with masala",
+      "Toast pav with butter",
+      "Serve bhaji with pav, onion, lemon"
+    ],
+    "nutrition": { "calories": 320, "protein": 8 }
+  },
+  {
+    "name": "Dhokla",
+    "cuisine": "Indian",
+    "diet": ["vegetarian", "gluten-free"],
+    "difficulty": "medium",
+    "time": 35,
+    "ingredients": ["besan", "curd", "green chili", "ginger", "mustard seeds", "curry leaves", "eno", "salt"],
+    "steps": [
+      "Prepare batter with besan and curd",
+      "Steam until fluffy",
+      "Prepare tadka with mustard seeds, curry leaves",
+      "Pour tadka on dhokla and serve"
+    ],
+    "nutrition": { "calories": 160, "protein": 6 }
+  },
+  {
+    "name": "Samosa",
+    "cuisine": "Indian",
+    "diet": ["vegetarian"],
+    "difficulty": "hard",
+    "time": 60,
+    "ingredients": ["flour", "potato", "peas", "onion", "green chili", "spices", "oil", "salt"],
+    "steps": [
+      "Prepare potato-pea stuffing",
+      "Roll and fill samosa sheets",
+      "Deep fry until golden",
+      "Serve with chutney"
+    ],
+    "nutrition": { "calories": 300, "protein": 6 }
+  },
+  {
+    "name": "Gulab Jamun",
+    "cuisine": "Indian",
+    "diet": ["vegetarian"],
+    "difficulty": "medium",
+    "time": 50,
+    "ingredients": ["khoya", "flour", "sugar", "cardamom", "oil"],
+    "steps": [
+      "Prepare dough with khoya and flour",
+      "Roll into balls and fry",
+      "Soak in sugar syrup",
+      "Serve warm"
+    ],
+    "nutrition": { "calories": 250, "protein": 4 }
   }
 ]
